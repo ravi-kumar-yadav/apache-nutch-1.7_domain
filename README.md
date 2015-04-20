@@ -12,4 +12,4 @@ My MTP2 Project
 ## Rough Idea
 1. Try Guassian Kernel
 2. Build Larger Negative Training set
-3. koi bhi tourism page ko positive me daalo
+3. Koi bhi tourism page ko positive me daalo

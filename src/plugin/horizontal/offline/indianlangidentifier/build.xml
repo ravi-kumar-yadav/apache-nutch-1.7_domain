@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Build file by IIIT-H -->
+<project name="indianlangidentifier" default="jar-core">
+
+  <import file="../../../build-lang-plugin.xml"/>
+
+<!-- Resources moved to common resource directory. No need to copy naything
+  <target name="init-plugin">
+    <echo>Copying language profiles</echo>
+    <copy todir="${build.classes}">
+      <fileset dir="${src.dir}" includes="**/*.properties"/>
+    </copy>
+  </target>
+-->
+</project>

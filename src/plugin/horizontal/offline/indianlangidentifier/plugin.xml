@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IIIT Hyderabad -->
+<plugin
+   id="indianlangidentifier"
+   name="Indian Language Identification. Supports AS, BN, EN, GU, HI, MR, OR, PA, TA, TE"
+   version="2.1.0"
+   provider-name="IIIT-H">
+
+    <runtime>
+      <library name="indianlangidentifier.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+
+<!--
+   <extension id="net.iiit.siel.analysis.lang.LanguageParseFilter"
+              name="Indian language Parser"
+              point="org.apache.nutch.parse.HtmlParseFilter">
+      <implementation id="LanguageParser"
+                      class="net.iiit.siel.analysis.lang.LanguageParseFilter"/>
+   </extension>
+
+   <extension id="net.iiit.siel.analysis.lang"
+              name="Indian language identifier filter"
+              point="org.apache.nutch.indexer.IndexingFilter">
+      <implementation id="LanguageIdentifier"
+                      class="net.iiit.siel.analysis.lang.LanguageIndexingFilter"/>
+   </extension>
+-->
+
+
+
+
+</plugin>
+

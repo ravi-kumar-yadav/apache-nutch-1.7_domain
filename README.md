@@ -13,3 +13,14 @@ My MTP2 Project
 1. Try Guassian Kernel
 2. Build Larger Negative Training set
 3. Koi bhi tourism page ko positive me daalo
+
+## Features
+1. Percentage of overlapping URL tokens in the already crawled URLs set.
+2. Percentage of overlapping parents URL tokens in the already crawled URLS’ parent tokens set.
+3. Percentage of overlapping anchor texts of the URL in the already crawled URLs’ anchor text set.
+4. Percentage of overlapping URL tokens in the already discarded URL tokens set.
+5. Percentage of overlapping parents URL tokens in the already discarded URLS’ parent tokens set.
+6. Percentage of overlapping anchor texts of the URL in the already discarded URLs’ anchor text set.
+7. Average parent scores of the URL.
+
+
